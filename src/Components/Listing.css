@@ -1,0 +1,65 @@
+.listing {
+  background: rgb(233, 233, 233);
+  height: 150vh;
+}
+.listing-content {
+  padding: 50px;
+  max-width: 900px;
+  margin-left: 300px;
+  color: rgb(77, 76, 76);
+}
+.search-bar input {
+  border-style: none;
+  border-radius: 10px;
+  height: 50px;
+  width: 100%;
+  box-shadow: 2px 2px 2px 2px rgb(213, 212, 212);
+}
+.list {
+  display: flex;
+  background: white;
+  height: 150px;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 2px rgb(213, 212, 212);
+}
+.list-image img {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+.list-content {
+  margin-left: 50px;
+}
+.list-content h2 {
+  margin: 0;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.list-content h4 {
+  font-size: 1rem;
+  margin: 5px 0;
+  color: rgb(181, 181, 181);
+}
+.list-data {
+  display: flex;
+  width: 100%;
+}
+.list-data h4 {
+  color: rgb(77, 76, 76);
+  font-size: 0.8rem;
+  width: 40%;
+  display: flex;
+}
+.list-data i {
+  font-size: 1.3rem;
+  margin-top: 10px;
+  margin-right: 10px;
+  color: rgb(181, 181, 181);
+}
+.list-data h5 {
+  margin: 0;
+  line-height: 15px;
+}
