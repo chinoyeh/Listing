@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
 import './css/Sidebar.css'
 
 const Sidebar = () => {
- const [profileName, setProfileNmae] = useState('Chinoyeh')
+
   return (
     <div className='Sidebar'>
       <div className='profile'>
@@ -11,7 +11,7 @@ const Sidebar = () => {
           <h1>C</h1>
         </div>
         <div className='profile-name'>
-          <h2>{profileName}</h2>
+          <h2>Chinoyeh</h2>
         </div>
       </div>
       <ul className='Sidelinks'>

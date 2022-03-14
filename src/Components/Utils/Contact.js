@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import './css/Contact.css'
-import { useNavigate } from 'react-router'
+
 
 const Modal = (props) => {
   const [user, setUser] = useState ('')
