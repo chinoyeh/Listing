@@ -12,10 +12,17 @@
   padding: 60px 20px;
   margin: auto;
 }
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px white inset !important;
+}
+
 .input-container {
   display: flex;
   box-shadow: 2px 5px 2px 2px rgb(213, 212, 212);
-  color: green;
+  color: blue;
   width: 300px;
   margin-bottom: 40px;
   height: 50px;
@@ -38,11 +45,11 @@ button {
   border: none;
   width: 320px;
   border-radius: 10px;
-  background-color: green;
+  background-color: blue;
   color: white;
   font-weight: bold;
   font-size: 1.2em;
 }
 body {
-  background-color: green;
+  background-color: rgb(190, 188, 188);
 }

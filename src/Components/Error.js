@@ -9,10 +9,10 @@ import './css/Listing.css'
 
 
 
-const Listing = () => {
+const Error = () => {
     const [query, setQuery] = useState ('')
     const [show, setShow] =useState(false)
-    const [modal, setModal] =useState(false)
+    const [modal, setModal] =useState(true)
     const [style, setStyle] = useState ('hideSidebar')
     const navigate = useNavigate()
     const showForm =(e)=>{
@@ -165,6 +165,6 @@ const Listing = () => {
   )
 }
 
-export default Listing
+export default Error
 
 

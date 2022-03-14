@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
 import {Link} from 'react-router-dom'
-import './Sidebar.css'
+import './css/Sidebar.css'
 
 const Sidebar = () => {
  const [profileName, setProfileNmae] = useState('Chinoyeh')
@@ -8,7 +8,7 @@ const Sidebar = () => {
     <div className='Sidebar'>
       <div className='profile'>
         <div className='profile-image'>
-          <h1>R</h1>
+          <h1>C</h1>
         </div>
         <div className='profile-name'>
           <h2>{profileName}</h2>
@@ -20,7 +20,7 @@ const Sidebar = () => {
         <Link to ='/listing' className='link'>
       
           <span><i className='fa fa-bullhorn'></i></span>
-          <span>Listings</span>
+          <span className='list-link'>Listings</span>
           </Link>
         </li>
       
@@ -28,34 +28,34 @@ const Sidebar = () => {
         <li>
           <Link to ='/*' className='link'>
           <span><i className='	fas fa-hourglass'></i></span>
-          <span>Dashboard</span>
+          <span className='list-link'>Dashboard</span>
           </Link>
         </li>
         <li>
         <Link to ='/*' className='link'>  
         <span><i className='fa fa-laptop'></i></span>
-          <span>Providers</span>
+          <span className='list-link'>Providers</span>
           </Link>
         </li>
         <li>
         <Link to ='/*' className='link'>
        
         <span><i className='	fas fa-user-friends'></i></span>
-          <span>Users</span>
+          <span className='list-link'>Users</span>
           </Link>
         </li>
         <li>
         <Link to ='/*' className='link'>
       
         <span><i className='	fa fa-credit-card'></i></span>
-          <span>Billing</span>
+          <span className='list-link'>Billing</span>
           </Link>
         </li>
         <li>
         <Link to ='/*' className='link'>
         
         <span><i className='fa fa-gear'></i></span>
-          <span>Settings</span>
+          <span className='list-link'>Settings</span>
           </Link>
         </li>
       </ul>
